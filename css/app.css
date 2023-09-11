@@ -26,8 +26,9 @@ img {
 
 .blue-btn {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #0061FF;
+    line-height: 40px;
 }
 
 /* container */
@@ -44,17 +45,22 @@ nav.container-large {
     justify-content: space-between;
 }
 
-.inline-menu {
+.main-header__menu {
     display: flex;
     align-items: center;
     /* gap: 40px; */
 }
 
-.inline-menu > li {
+.main-header__menu > li {
     padding: 10px 20px;
+    font-size: 14px;
+}
+
+.main-header__menu .blue-btn {
+    line-height: normal;
 }
 
 /* DEBUG */
-*{
+/* *{
     border-style: solid;
-}
+} */
