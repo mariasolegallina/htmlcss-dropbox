@@ -18,3 +18,43 @@ ol,
 menu {
     list-style: none;
 }
+
+img {
+    display: block;
+    height: 100%;
+}
+
+.blue-btn {
+    color: white;
+    font-size: 16px;
+    background-color: #0061FF;
+}
+
+/* container */
+.container-large {
+    width: 100vw;
+}
+
+/* header */
+nav.container-large {
+    height: 80px;
+    /* padding: 20px; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-menu {
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+}
+
+.inline-menu > li {
+    padding: 10px 20px;
+}
+
+/* DEBUG */
+*{
+    border-style: solid;
+}
