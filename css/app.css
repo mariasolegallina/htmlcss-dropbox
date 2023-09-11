@@ -60,6 +60,12 @@ img {
     line-height: 24px;
 }
 
+.bodyText-sBold {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
 /* containers */
 .container-l {
     width: 100vw;
@@ -152,20 +158,35 @@ padding-right: 45px;
     gap: 50px;
 }
 
-.col-4 {
+.card {
     width: calc((100% / 12) * 4);
+    border: #b2b2b2;
+    border-style: solid;
+    border-width: 1px;
 }
+
+.card__top {
+    border-bottom: #b2b2b2 solid 1px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.card__top i {
+    margin-right: 5px;
+}
+
+.card__bottom {
+    padding: 50px 30px;
+}
+
+
 
 
 
 /* DEBUG */
 
 /* DEBUG__CARDS */
-.debug .col-4 {
-    border-style: solid;
-    border-color: red;
-    padding: 10px;
-}
+
 
 
 /* DEBUG__HERO */
