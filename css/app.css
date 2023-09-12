@@ -250,11 +250,19 @@ padding-right: 45px;
 /* clients */
 .clients [class^='col-'] {
     aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients img {
+    max-width: 60%;
+    filter: invert(100%);
 }
 
 .designit {
     background-color: #A2D39B;
-    border: #D1E9CD solid 10px; 
+    border: #D1E9CD solid 10px;
 }
 
 .asu {
@@ -268,6 +276,24 @@ padding-right: 45px;
 .topps {
     background-color: #FF1C1C;
 }
+
+.bicycle {
+    background-color: #D5001F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.lonelyp {
+    background-color: #0D2481;
+}
+
+.clearc {
+    background-color: #FFD830;
+}
+
+
 
 /* DEBUG */
 
