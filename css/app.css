@@ -34,7 +34,7 @@ figure > img {
     font-size: 14px;
     background-color: #0061FF;
     line-height: 40px;
-    margin-bottom: 36px;
+    text-align: center;
 }
 
 /* text styles */
@@ -56,19 +56,17 @@ figure > img {
 .bodyText-m {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5em;
 }
 
 .bodyText-s {
     font-size: 14px;
     font-weight: 400;
-    ine-height: 1.5em;
 }
 
 .bodyText-sBold {
     font-size: 14px;
-    font-weight: 700;
-    ine-height: 1.5em;
+    font-weight: 900;
+    line-height: 1.5em;
 }
 
 /* layout */
@@ -84,6 +82,7 @@ figure > img {
 .container-s {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 75px 0;
 }
 
 .row {
@@ -168,16 +167,18 @@ nav.container-l {
 }
 
 /* plan */
+.plan .row {
+    margin-bottom: 50px;
+}
+
 .invoice > * {
 padding-right: 45px;
 }
 
 .card {
     padding: 0 26px;
-}
-
-.row__cards {
-    padding: 0 -26px;
+    font-size: 14px;
+    margin-bottom: 52px;
 }
 
 .paddingRzero {
@@ -201,7 +202,20 @@ padding-right: 45px;
 
 .card__body {
     border: #b2b2b2 1px solid;
-    padding: 40px 30px;
+    padding: 40px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.body__pricing, .body__features, .body__details, .details__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fa-check{
+    color: #0061FF;
 }
 
 
