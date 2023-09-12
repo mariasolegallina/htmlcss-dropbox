@@ -173,7 +173,7 @@ nav.container-l {
 }
 
 /* plan */
-.plan .row {
+.plan .row, .features .row{
     row-gap: 52px;
     margin-bottom: 52px;
 }
@@ -247,12 +247,27 @@ padding-right: 45px;
     padding: 10px 0 25px 0;
 }
 
-.features .row {
-    row-gap: 52px;
+/* clients */
+.clients [class^='col-'] {
+    aspect-ratio: 1/1;
 }
 
+.designit {
+    background-color: #A2D39B;
+    border: #D1E9CD solid 10px; 
+}
 
+.asu {
+    background-color: #61082B;
+}
 
+.uflorida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
 
 /* DEBUG */
 
