@@ -37,6 +37,11 @@ figure > img {
     text-align: center;
 }
 
+.line {
+    width: 100px;
+    border: black solid 0.4px;
+}
+
 /* text styles */
 .headline-xl {
     font-size: 78px;
@@ -248,7 +253,7 @@ padding-right: 45px;
 }
 
 /* clients */
-.clients [class^='col-'] {
+.clients [class^='col-6'] {
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
@@ -258,6 +263,20 @@ padding-right: 45px;
 .clients img {
     max-width: 60%;
     filter: invert(100%);
+}
+
+.big-designit {
+    background-color: #F5F5F5;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.big-designit>img {
+    filter: invert(0%);
+    max-width: 50%;
 }
 
 .designit {
