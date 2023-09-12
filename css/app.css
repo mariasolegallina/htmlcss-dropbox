@@ -37,6 +37,11 @@ figure > img {
     text-align: center;
 }
 
+.line-s {
+    width: 50px;
+    border: black solid 0.4px;
+}
+
 .line {
     width: 100px;
     border: black solid 0.4px;
@@ -217,6 +222,11 @@ padding-right: 45px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+.blue-link {
+    color: #0061FF;
+    text-decoration: underline;
 }
 
 .body__pricing,
