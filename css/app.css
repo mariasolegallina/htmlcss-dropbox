@@ -111,8 +111,10 @@ nav.container-l {
     height: 80px;
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-right: 20px;
 }
 
 .main-header__menu {
@@ -181,13 +183,13 @@ padding-right: 45px;
     margin-bottom: 52px;
 }
 
-.paddingRzero {
+/* .paddingRzero {
     padding-right: 0;
 }
 
 .paddingLzero {
     padding-left: 0;
-}
+} */
 
 .card__header {
     border: #b2b2b2 solid;
@@ -208,7 +210,11 @@ padding-right: 45px;
     gap: 30px;
 }
 
-.body__pricing, .body__features, .body__details, .details__list {
+.body__pricing,
+.body__features,
+.body__details,
+.details__list,
+.cta__text {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -218,7 +224,15 @@ padding-right: 45px;
     color: #0061FF;
 }
 
+.body__cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.body__cta > .blue-btn {
+    padding: 0 26px;
+}
 
 
 
