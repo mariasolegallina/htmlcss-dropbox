@@ -387,6 +387,33 @@ padding-right: 45px;
     display: inline-block;    
 }
 
+/* faq */
+.faq-list {
+    padding-left: 26px
+}
+
+.faq-list > li {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    line-height: 100px;
+    border-top: black solid;
+    border-width: 1px;
+}
+
+.faq-list > li:last-child {
+    border-bottom: black solid;
+    border-width: 1px;
+}
+
+
+.faq-list .row {
+    padding-right: 40px ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* DEBUG */
 
 /* DEBUG__HERO */
