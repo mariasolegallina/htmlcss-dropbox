@@ -413,6 +413,32 @@ padding-right: 45px;
     align-items: center;
 }
 
+/* footer */
+.main-footer {
+    background-color: black;
+    color: white;
+    padding: 110px 0 50px 0
+}
+
+.main-footer .row {
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.main-footer .headline-m {
+    padding-bottom: 20px;
+}
+
+.col-menu {
+    max-width: calc(100% - 280px) / 5;
+}
+
+.col-menu__items {
+    font-size: 14px;
+    line-height: 2em;
+}
+
+
 
 /* DEBUG */
 
