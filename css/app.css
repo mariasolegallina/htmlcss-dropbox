@@ -35,6 +35,18 @@ figure > img {
     background-color: #0061FF;
     line-height: 40px;
     text-align: center;
+    white-space: nowrap;
+}
+
+.white-btn {
+    font-size: 14px;
+    background-color: white;
+    border: solid 0.5px black;
+    line-height: 40px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 25px;
+    /* display: inline-block; */
 }
 
 .line-s {
@@ -58,6 +70,8 @@ figure > img {
     font-size: 38px;
     font-weight: 700;
     line-height: 1.5em;
+    margin-bottom: 52px;
+    margin-left: 26px;
 }
 
 .headline-m {
@@ -96,7 +110,7 @@ figure > img {
 .container-s {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 70px 0;
 }
 
 .row {
@@ -183,11 +197,13 @@ nav.container-l {
 }
 
 /* plan */
-.plan .row, .features .row{
-    row-gap: 52px;
+/* .plan .row, .features .row{
+    margin: 26px 0;
     margin-bottom: 52px;
+} */
+.invoice {
+    padding:0 0 52px 26px;
 }
-
 .invoice > * {
 padding-right: 45px;
 }
@@ -253,7 +269,24 @@ padding-right: 45px;
     padding: 0 26px;
 }
 
+/* partner */
+.partner-container {
+    padding-left: 26px;
+}
+
+.partner__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 0 0 50px;
+    gap: 30px;
+}
+
+
 /* features */
+.features .row {
+    row-gap: 52px;
+}
 .features .col-4 {
     padding: 0 26px;
 }
@@ -263,6 +296,10 @@ padding-right: 45px;
 }
 
 /* clients */
+.clients .blue-link {
+    padding: 0 0 52px 26px;
+}
+
 .clients [class^='col-6'] {
     aspect-ratio: 1/1;
     display: flex;
@@ -276,6 +313,7 @@ padding-right: 45px;
 }
 
 .big-designit {
+    aspect-ratio: 1/1;
     background-color: #F5F5F5;
     padding: 50px;
     display: flex;
@@ -322,7 +360,32 @@ padding-right: 45px;
     background-color: #FFD830;
 }
 
+.business {
+    background-color: #B4D0E7;
+}
 
+.business [class^='col-'] {
+    padding: 0 30px;
+}
+
+.hl-business {
+    color: #61082B;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-left: 26px;
+}
+
+.btn-business {
+    color: black;
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 0 50px;
+    display: inline-block;    
+}
 
 /* DEBUG */
 
